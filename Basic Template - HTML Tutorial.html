@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)https://ryanstutorials.net/html-tutorial/html-template.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn the basic template for creating HTML pages.  The basic tags which all HTML documents should be crafted from.">
+    <meta name="keywords" content="html, tags, body, doctype, web page, internet, head, title">
+    <meta name="author" content="Ryan Chadwick">
+
+    <title>Basic Template - HTML Tutorial</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./Basic Template - HTML Tutorial_files/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="./Basic Template - HTML Tutorial_files/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./Basic Template - HTML Tutorial_files/style.css" rel="stylesheet">
+    <link href="./Basic Template - HTML Tutorial_files/style(1).css" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="https://ryanstutorials.net/favicons/favicon_html.png">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script charset="utf-8" src="./Basic Template - HTML Tutorial_files/button.856debeac157d9669cf51e73a08fbc93.js.download"></script></head>
+
+<body role="document" data-spy="scroll" data-target="#sidebox" data-offset="90" style=""> 
+	<header id="ryansheader">
+	<div class="container">
+		<div class="col-sm-12">
+			<a id="ryantitle" href="https://ryanstutorials.net/" title="A collection of Technology Tutorials">Ryans Tutorials</a>
+			
+			<div class="btn-toolbar pull-right">
+				<div class="btn-group mega-dropdown">
+					<button class="btn btn-info btn-sm dropdown-toggle" data-toggle="dropdown">More Tutorials <span class="caret"></span></button>
+					<ul class="dropdown-menu pull-right mega-dropdown-menu row">
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Linux</li>
+								<li><a href="https://ryanstutorials.net/linuxtutorial/"><span><img src="./Basic Template - HTML Tutorial_files/tux_48.png" alt="Tux"><p>Linux Tutorial</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/bash-scripting-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/hammer_48.png" alt="Hammer"><p>Bash Scripting Tutorial</p></span></a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">Web</li>
+								<li><a href="https://ryanstutorials.net/html-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/html_48.png" alt="HTML"><p>HTML Tutorial</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/css-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/css_48.png" alt="CSS"><p>CSS Tutorial</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/website-development-challenges/"><span><img src="./Basic Template - HTML Tutorial_files/experiment_48.png" alt="Experiment"><p>Website Development Challenges</p></span></a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">General</li>
+								<li><a href="https://ryanstutorials.net/binary-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/abacus_48.png" alt="Abacus"><p>Binary Tutorial</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/regular-expressions-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/search_48.png" alt="Search"><p>Regular Expressions Tutorial</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/boolean-algebra-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/config_48.png" alt="Switches"><p>Boolean Algebra Tutorial</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/rubiks-cube-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/cube_48.png" alt="Rubiks Cube"><p>Solve the Cube</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/pygame-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/pygame_48.png" alt="PyGame"><p>PyGame Tutorial</p></span></a></li>
+							</ul>
+						</li>
+						<li class="col-sm-3">
+							<ul>
+								<li class="dropdown-header">&nbsp;</li>
+								<li><a href="https://ryanstutorials.net/problem-solving-skills/"><span><img src="./Basic Template - HTML Tutorial_files/map_48.png" alt="Map"><p>Problem Solving Skills</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/graphic-design-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/brush_48.png" alt="Brush"><p>Basic Graphic Design</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/programming-challenges/"><span><img src="./Basic Template - HTML Tutorial_files/rocket_48.png" alt="Rocket"><p>Programming Challenges</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/software-design-and-development/"><span><img src="./Basic Template - HTML Tutorial_files/browser_48.png" alt="Software"><p>Software Design and Development</p></span></a></li>
+								<li><a href="https://ryanstutorials.net/microbit-tutorial/"><span><img src="./Basic Template - HTML Tutorial_files/microbit_48.png" alt="micro:bit"><p>micro:bit tutorial</p></span></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header> 
+	
+	<!-- Fixed navbar -->
+	<div id="tutorialheader" class="navbar navbar-inverse navbar-static affix" role="navigation" data-spy="affix" data-offset-top="40">
+		<div class="container">
+			<h1>HTML Tutorial - 3. Basic Template</h1>
+			
+			<div class="btn-toolbar pull-right">
+								<div class="btn-group">
+					<button class="btn btn-info btn-sm dropdown-toggle" data-toggle="dropdown">Tutorial Sections <span class="caret"></span></button>
+					<ul class="dropdown-menu pull-right">
+					<li><a href="https://ryanstutorials.net/html-tutorial/">Introduction</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-background.php">1. Background Information</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html.php">2. The Basics</a></li><li class="active"><a href="https://ryanstutorials.net/html-tutorial/html-template.php">3. Basic Template</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-basic-tags.php">4. Headings and Paragraphs</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-simple-formatting.php">5. Simple Formatting</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-more-formatting.php">6. More Formatting</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-links.php">7. Links</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-images.php">8. Images</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-lists.php">9. Lists</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-tables.php">10. Tables</a></li><li><a href="https://ryanstutorials.net/html-tutorial/html-final-thoughts.php">11. Final Thoughts</a></li>					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<div class="jumbotron">
+					<h2>Basic Template!</h2>
+					<p>How every HTML document begins.</p>
+				</div>
+				
+				<h2 id="introduction" class="introduction">Introduction</h2>
+				
+				<div class="pull-right"><style>
+			.ryanstutorials-html-top { width: 300px; height: 250px; }
+			@media(min-width: 500px) { .ryanstutorials-html-top { width: 336px; height: 280px; } }
+			@media(min-width: 800px) { .ryanstutorials-html-top { width: 336px; height: 280px; } }
+			</style>
+			<script async="" src="./Basic Template - HTML Tutorial_files/f.txt"></script>
+			<!-- RyansTutorials HTML Top -->
+			<ins class="adsbygoogle ryanstutorials-html-top" style="display:inline-block" data-ad-client="ca-pub-9971420945046594" data-ad-slot="1004326471"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			</div>				
+				<p>Now we'll get to dive in and play with some code.  This section will introduce the basic HTML template.  This template has the basic structure that every document should follow, as well as a few other extra bits to help manage the document.</p>
+				
+				
+				<h2 id="template">The Basic Template</h2>
+				
+				<p>Here is the basic template.  This template should be the starting point for every HTML page you write.  The rest of this section will deconstruct and explain it.</p>
+				
+				<p>&nbsp;</p>
+				
+				<div class="page">
+					<h4>template.html</h4>
+					
+					<ol>
+						<li><span class="highlight-blue">&lt;<b>!doctype</b> html&gt;</span></li>
+						<li><span class="highlight-blue">&lt;<b>html</b>&gt;</span></li>
+						<li><span class="highlight-blue">&lt;<b>head</b>&gt;</span></li>
+						<li><span class="tab1"></span><span class="highlight-blue">&lt;<b>title</b>&gt;</span>Our Funky HTML Page<span class="highlight-blue">&lt;<b>/title</b>&gt;</span></li>
+						<li><span class="tab1"></span><span class="highlight-blue">&lt;<b>meta</b> <span class="highlight-green">name</span>=<span class="highlight-red">"description"</span> <span class="highlight-green">content</span>=<span class="highlight-red">"Our first page"</span>&gt;</span></li>
+						<li><span class="tab1"></span><span class="highlight-blue">&lt;<b>meta</b> <span class="highlight-green">name</span>=<span class="highlight-red">"keywords"</span> <span class="highlight-green">content</span>=<span class="highlight-red">"html tutorial template"</span>&gt;</span></li>
+						<li><span class="highlight-blue">&lt;<b>/head</b>&gt;</span></li>
+						<li></li>
+						<li><span class="highlight-blue">&lt;<b>body</b>&gt;</span></li>
+						<li><span class="tab1"></span>Content goes here.</li>
+						<li><span class="highlight-blue">&lt;<b>/body</b>&gt;</span></li>
+						<li><span class="highlight-blue">&lt;<b>/html</b>&gt;</span></li>
+					</ol>
+				</div>
+				
+				<p>Let's break it down:</p>
+				
+				<ul>
+					<li><b>Line 1</b> - This is a special tag which goes at the very top of the document and identifies what type of code is being used.</li>
+					<li><b>Lines 2 and 12</b> - The <b>html</b> tags open and close the HTML document. Everything contained within is part of the document.</li>
+					<li><b>Lines 3 and 7</b> - The <b>head</b> tags define the head of the document.  Items here are extra data that goes along with the document.</li>
+					<li><b>Line 4</b> - The <b>title</b> tag defines the title of the document.  You'll notice it shows up at the top of the browser window.</li>
+					<li><b>Lines 5 and 6</b> - The <b>meta</b> tags are used to describe the document.</li>
+					<li><b>Lines 9 and 11</b> - The <b>body</b> tags enclose the actual content which is the document.</li>
+				</ul>
+				
+				<div class="browser">
+					<div class="browser-title">Our Funky HTML Page</div>
+					
+					<div class="browser-content">
+						Content goes here.
+					</div>
+				</div>
+				
+				
+				<h2 id="doctype">The DocType</h2>
+				
+				<p>The first tag on each page should always be this tag.  It should go at the very top, before the <b>html</b> tag.  You'll notice that, unlike the other tags, this one begins with an exalamation mark ( ! ).</p>  
+				
+				<p class="commandoutline">&lt;!doctype html&gt;</p>
+				
+				<p>Technically it is not a tag but an instruction to the brower on how to interpret the rest of the document.  For HTML 5 we simply refer to the type as <b>html</b>.  For previous versions of HTML there were different types that it could be so it was important to specify which.</p>
+				
+				
+				<h2 id="head">The Head</h2>
+				
+				<p class="commandoutline">&lt;head&gt; &lt;/head&gt;</p>
+				
+				<p>The <b>head</b> of the html document is where ancilliary information goes.  This is information relating to the document but not directly part of the document.  There are many items which can go here but the template above includes the basic items which every page should have.</p>
+				
+				
+				<h3>The Title</h3>
+				
+				<p class="commandoutline">&lt;title&gt; &lt;/title&gt;</p>
+				
+				<p>The <b>title</b> tag allows us to give the document a title.  This is used in several places:</p>
+				
+				<ul>
+					<li>The browser will include it at the top of the window.</li>
+					<li>If you save the page as a favourite the title will be used here.</li>
+					<li>Search engines use the title when they list your page in their search results.</li>
+					<li>Other sites may use the title when someone links to your page.</li>
+					<li>And others...</li>
+				</ul>
+				
+				<p>The <b>title</b> tag can be quite important given all the places it is used.  You should take the time to make sure it is descriptive and concise.</p>
+				
+				<div class="best">
+					<p>Search engines generally only show the first 65 characters of the title (give or take a few characters).  You should aim to keep your <b>title</b> to less than this amount.</p>  
+				</div>
+				
+				<p>A well written <b>title</b> can encourage more people to click on your page when it shows up on Search Engine Results Pages.</p>
+				
+				
+				<h3>Meta Tags</h3>
+				
+				<p class="commandoutline">&lt;meta name="description" value=""&gt;<br> &lt;meta name="keywords" value=""&gt;</p>
+				
+				<p>Next in the <b>head</b> we have the two <b>meta</b> tags for description and keywords.  These are used by search engines (to varying degrees) and can also be used by other systems (such as when your page is linked to on social media and other sharing sites).</p>
+				
+				<p>The <b>description</b> is used to provide a summary of what the page is about.  Search engines will typically place this under your title in their results pages.</p>
+				
+				<div class="best">
+					<p>Search engines generally only show the first 155 characters of the description (give or take a few characters).  You should aim to keep your <b>description</b> to less than this amount.</p>  
+				</div>
+				
+				<p>Again, a well written description can encourage more people to click on your page when it shows up on Search Engine Results Pages.</p>
+				
+				<p>The <b>keywords</b> meta tag is used to provide a series of words which would match what the page is about.  Search engines used to place weight on this aspect of your page but it was abused to the point that it holds very little weight nowadays.  You should still include it however for completeness and also as it is estimated that some search engines will mark you down for not having it.  Their reasoning is that if you are lazy and can't be bothered putting this tag in then you're probably lazy in other areas too so the quality of your page, in their opinion, is less.</p>
+				
+				<div class="block-center"><style>
+			.ryanstutorials-html-middle { width: 320px; height: 50px; }
+			@media(min-width: 500px) { .ryanstutorials-html-middle { width: 468px; height: 60px; } }
+			@media(min-width: 750px) { .ryanstutorials-html-middle { width: 728px; height: 90px; } }
+			</style>
+			<script async="" src="./Basic Template - HTML Tutorial_files/f.txt"></script>
+			<!-- RyansTutorials HTML Middle -->
+			<ins class="adsbygoogle ryanstutorials-html-middle" style="display:inline-block" data-ad-client="ca-pub-9971420945046594" data-ad-slot="2481059678"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			</div>				
+				
+				<h2 id="body">The Body</h2>
+				
+				<p class="commandoutline">&lt;body&gt; &lt;/body&gt;</p>
+				
+				<p>This is where the actual content of your page goes.  Typically this content would all be contained within tags to explain what type of content it is.  In the example above we have left this out just to keep things simple.  In the next section we'll start to show you what type of tags may be used.</p>
+				
+				<p>It is important that all of your content is between the opening and closing <b>body</b> tags.</p>
+				
+				
+				<h2 id="breaking">Breaking the Rules</h2>
+				
+				<p>If you copy the file above (template.html) into your own file and open it within a browser you will see a basic page.  Experimenting with it, you will see that you can actually break the rules in quite a few different ways and the browser will happily play along.</p>
+				
+				<p>Browser vendors realise there is quite a bit of poorly written HTML out there.  In an effort to provide the best experience to their users they will do their best effort to work around any errors they come across.</p>
+				
+				<p>Don't take this as an excuse to be lazy and write poor code however.</p>  
+				
+				<ul>
+					<li>It may work now but future versions of browsers may not be as lenient.</li>
+					<li>It can also get you into trouble later on when adding CSS and javascript.</li>
+					<li>Search engines often look at the quality of your code as an indicator of the quality of your content.  If they see HTML errors it can harm your rankings.</li>
+				</ul>
+				
+				
+				<h2 id="summary">Summary</h2>
+				<div class="stuffwelearnt">
+					<dl>
+						<dt>&lt;!doctype html&gt;</dt>
+						<dd>Specifies that this is a HTML document.</dd>
+						
+						<dt>&lt;html&gt; &lt;/html&gt;</dt>
+						<dd>Defines the actual HTML document.</dd>
+						
+						<dt>&lt;head&gt; &lt;/head&gt;</dt>
+						<dd>A container to put ancilliary information which goes with the document.</dd>
+						
+						<dt>&lt;title&gt; &lt;/title&gt;</dt>
+						<dd>A container to define the title of the document.</dd>
+						
+						<dt>&lt;meta&gt;</dt>
+						<dd>Defines information describing the document.</dd>
+						
+						<dt>&lt;body&gt; &lt;/body&gt;</dt>
+						<dd>A container to hold the content of the document.</dd>
+					</dl>
+				</div>
+				
+				<div class="importantconcepts">
+					<dl>
+						<dt>Starting Point</dt>
+						<dd>Every document you write should start with this basic template.</dd>
+						
+						<dt>Breaking the rules</dt>
+						<dd>Browsers will let you break the rules.  This doesn't mean you should.</dd>
+					</dl>
+				</div>
+				
+				<h2 id="activities">Activities</h2>
+				
+				<p>Now let's play about and create our first page.</p>
+				
+				<ul class="activities">
+					<li>Copy the template above into your own file and open it within a browser. Observe where the title is displayed.</li>
+					
+					<li>Find out how to open your browsers <a href="https://ryanstutorials.net/html-tutorial/html-background.php#debugging">inspection tool</a> and have a bit of an explore.  You won't see much for now but it will become more useful as we add more to our document.</li>
+					
+					<li>Make a copy of the document and open that in your browser.  Now break it in various ways and see what you can and can't get away with.  Here are a few things to try:
+						<ul>
+							<li>put content in various places outside the <b>body</b> tags.</li>
+							<li>leave out or misspell different tags.</li>
+							<li>try adding duplicates of tags, eg. what happens if you have two or more body or title tags?</li>
+						</ul></li>
+				</ul>
+				
+				<p>As we work through this tutorial, each section will add new tags allowing you to do more interesting things.  My suggestion would be that you pick a topic or subject of interest to you and create a page about that.  As you work through each section add to and improve the page with the new tags you have learnt.</p>
+				
+				<div class="block-center"><style>
+			.ryanstutorials-html-bottom { width: 320px; height: 50px; }
+			@media(min-width: 500px) { .ryanstutorials-html-bottom { width: 468px; height: 60px; } }
+			@media(min-width: 750px) { .ryanstutorials-html-bottom { width: 728px; height: 90px; } }
+			</style>
+			<script async="" src="./Basic Template - HTML Tutorial_files/f.txt"></script>
+			<!-- RyansTutorials HTML Bottom -->
+			<ins class="adsbygoogle ryanstutorials-html-bottom" style="display:inline-block" data-ad-client="ca-pub-9971420945046594" data-ad-slot="3957792872"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			</div>				
+				
+				<div id="bottomnavigation">
+					<div class="pull-left"><a href="https://ryanstutorials.net/html-tutorial/"><span class="glyphicon glyphicon-chevron-left"></span> HTML Home</a></div>
+					<div class="pull-right"><a href="https://ryanstutorials.net/html-tutorial/html-basic-tags.php">Basic Tags <span class="glyphicon glyphicon-chevron-right"></span></a></div>
+				</div>
+				
+			</div>
+			<div class="col-md-3" id="sideboxcol">
+				<div class="well sidebar-nav hidden-xs hidden-sm affix" id="sidebox" data-spy="affix" data-offset-top="40" style="width: 263px;">
+					<ul class="nav nav-list">
+						<li class="nav-header">Section Breakdown</li>
+						<li><a href="https://ryanstutorials.net/html-tutorial/html-template.php#introduction">Introduction</a></li>
+						<li><a href="https://ryanstutorials.net/html-tutorial/html-template.php#template">The Basic Template</a></li>
+						<li><a href="https://ryanstutorials.net/html-tutorial/html-template.php#doctype">The DocType</a></li>
+						<li class=""><a href="https://ryanstutorials.net/html-tutorial/html-template.php#head">The Head</a></li>
+						<li class=""><a href="https://ryanstutorials.net/html-tutorial/html-template.php#body">The Body</a></li>
+						<li class=""><a href="https://ryanstutorials.net/html-tutorial/html-template.php#breaking">Breaking the Rules</a></li>
+						<li class=""><a href="https://ryanstutorials.net/html-tutorial/html-template.php#summary">Summary</a></li>
+						<li class="active"><a href="https://ryanstutorials.net/html-tutorial/html-template.php#activities">Activities</a></li>
+						<li class="nav-header">Next Section</li>
+						<li><a href="https://ryanstutorials.net/html-tutorial/html-basic-tags.php">Basic Tags</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid footer-background margin-top">
+	<div class="row-fluid">
+		<div class="col-md-12">
+			<div class="container">
+				<footer>
+					<p>By <a href="https://plus.google.com/105636787773904848687" rel="author">Ryan Chadwick</a> © 2024 <span style="margin-left:30px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 156px; height: 20px;" title="Twitter Follow Button" src="./Basic Template - HTML Tutorial_files/follow_button.2f70fb173b9000da126c79afe2098f02.en.html" data-screen-name="funcreativity"></iframe></span><script async="" src="./Basic Template - HTML Tutorial_files/widgets.js.download" charset="utf-8"></script></p>
+				</footer>
+					
+				<div id="footerbar"></div> 
+
+				<div class="row">
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/" title="Kindle the flame">
+							<img src="./Basic Template - HTML Tutorial_files/fire_64.png" alt="Flame">
+							<h4>Home</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/linuxtutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/tux_64.png" alt="Tux">
+							<h4>Linux Tutorial</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/html-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/html_64.png" alt="HTML">
+							<h4>HTML Tutorial</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/binary-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/abacus_64.png" alt="Abacus">
+							<h4>Binary Tutorial</h4>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3">
+						<p>Education is the kindling of a flame, <br>not the filling of a vessel.<br>
+						<i>- Socrates</i></p>
+						
+						<p><a href="https://ryanstutorials.net/contact.php">Contact</a> | <a href="https://ryanstutorials.net/disclaimer.php" title="Privacy Policy, Terms of Use and Disclaimer">Disclaimer</a></p>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/bash-scripting-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/hammer_64.png" alt="Hammer">
+							<h4>Bash Scripting Tutorial</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/css-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/css_64.png" alt="CSS">
+							<h4>CSS Tutorial</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/regular-expressions-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/search_64.png" alt="Search">
+							<h4>Regular Expressions</h4>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-3 col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/programming-challenges/">
+							<img src="./Basic Template - HTML Tutorial_files/rocket_64.png" alt="Rocket">
+							<h4>Programming Challenges</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/problem-solving-skills/">
+							<img src="./Basic Template - HTML Tutorial_files/map_64.png" alt="Map">
+							<h4>Problem Solving</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/boolean-algebra-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/config_64.png" alt="Switches">
+							<h4>Boolean Algebra Tutorial</h4>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-offset-3 col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/graphic-design-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/brush_64.png" alt="Paint Brush">
+							<h4>Basic Design Tutorial</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/rubiks-cube-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/cube_64.png" alt="Rubiks Cube">
+							<h4>Solve the Cube</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/software-design-and-development/">
+							<img src="./Basic Template - HTML Tutorial_files/browser_64.png" alt="Software">
+							<h4>Software Design and Development</h4>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+                    <div class="col-sm-offset-3 col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/website-development-challenges/">
+							<img src="./Basic Template - HTML Tutorial_files/experiment_64.png" alt="Experiments">
+							<h4>Website Development Challenges</h4>
+						</a>
+					</div>
+                    <div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/thoughts/">
+							<img src="./Basic Template - HTML Tutorial_files/typewriter_64.png" alt="Typewriter">
+							<h4>Thoughts</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/microbit-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/microbit_64.png" alt="micro:bit">
+							<h4>micro:bit Tutorial</h4>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+                    <div class="col-sm-offset-3 col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/pygame-tutorial/">
+							<img src="./Basic Template - HTML Tutorial_files/pygame_64.png" alt="PyGame">
+							<h4>PyGame Tutorial</h4>
+						</a>
+					</div>
+					<div class="col-sm-3 tutorial-outline">
+						<a href="https://ryanstutorials.net/spreadsheets/">
+							<img src="./Basic Template - HTML Tutorial_files/spreadsheets_64.png" alt="Spreadsheets">
+							<h4>Spreadsheets Tips and Hints</h4>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> 
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="./Basic Template - HTML Tutorial_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-77NVHSB7DG');
+</script>
+
+	<!--<div id='rhythm'></div>-->
+	
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	
+	<script src="./Basic Template - HTML Tutorial_files/jquery.min.js.download"></script>
+	<script src="./Basic Template - HTML Tutorial_files/bootstrap.min.js.download"></script>
+	<script src="./Basic Template - HTML Tutorial_files/base.js.download"></script>
+	<script src="./Basic Template - HTML Tutorial_files/javascript.js.download"></script>
+
+
+ 
+
+ 
+ 
+ 
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="./Basic Template - HTML Tutorial_files/widget_iframe.2f70fb173b9000da126c79afe2098f02.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./Basic Template - HTML Tutorial_files/saved_resource.html"></iframe></body></html>
